@@ -15,7 +15,7 @@ export function Label({
   return (
     <label {...props}>
       <span
-        className={`${srOnly && 'sr-only'} block text-zinc-500 font-medium mb-1`}
+        className={`${srOnly && 'sr-only'} mb-1 block font-medium text-zinc-500`}
       >
         {labelText}
       </span>
