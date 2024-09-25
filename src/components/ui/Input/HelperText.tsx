@@ -1,7 +1,8 @@
 import { HTMLAttributes } from 'react';
+import { FieldError } from 'react-hook-form';
 
 export interface HelperTextProps extends HTMLAttributes<HTMLSpanElement> {
-  error?: string;
+  error?: FieldError;
 }
 
 export function HelperText({ children, error, ...props }: HelperTextProps) {
