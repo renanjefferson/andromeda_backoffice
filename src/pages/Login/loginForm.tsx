@@ -70,7 +70,7 @@ export function LoginForm() {
         </div>
 
         <div>
-          <Button type="submit" variant="primary">
+          <Button type="submit" variant="primary" className="h-14 w-full">
             <span>Entrar</span>
           </Button>
         </div>

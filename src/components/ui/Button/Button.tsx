@@ -2,12 +2,10 @@ import { ButtonHTMLAttributes } from 'react';
 import { tv, VariantProps } from 'tailwind-variants';
 
 const button = tv({
-  base: [
-    'w-full h-14 rounded-lg px-3 py-2 text-sm font-semibold outline-none shadow-sm',
-  ],
+  base: ['rounded-lg px-3 py-2 text-sm font-semibold outline-none shadow-sm'],
   variants: {
     variant: {
-      ghost: 'rounded-md px-2 hover:bg-zinc-50 shadow-none',
+      ghost: 'rounded-md px-2 hover:bg-zinc-100 shadow-none',
       primary: 'bg-zinc-900 text-white hover:bg-zinc-950',
     },
   },
